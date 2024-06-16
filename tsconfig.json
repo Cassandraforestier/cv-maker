@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "jsx": "react-jsx",
+        "target": "ESNext",
+        "moduleResolution": "bundler",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "noEmitOnError": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "ESNext"
+    },
+    "include": ["src", "index.html"]
+}
